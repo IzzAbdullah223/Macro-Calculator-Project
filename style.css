@@ -1,0 +1,99 @@
+ 
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .container{
+        width: 30%;
+        margin: auto;
+        background-color: rgba(243, 242, 242, 0.082);
+        margin-top: 50px;
+        height: 64vh;
+        box-shadow: 5px 5px 15px rgba(10, 10, 10, 0.63);
+        margin-bottom: 4;
+    }
+    
+    .container h1{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    
+    
+    .container label{
+        font-weight: bold;
+       margin-left: 20px;
+    
+    }
+    
+    .inputs{
+       margin-right: 340px;
+       margin-top: 7px;
+       margin-left: 25px;
+       margin-bottom: 20px;
+       width: 90%;
+       padding: 5px;
+       border: 1px solid rgba(0, 0, 0, 0.418);
+       border-radius: 5px;
+    }
+    
+    .container select{
+        width: 92.2%;
+        padding: 5.7px;
+        border-radius: 5px;
+    }
+    
+    
+    button{
+        margin-left: 20px;
+        border: none;
+        background-color: rgba(9, 129, 9, 0.699);
+        padding: 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-family: Arial;
+        font-size: 15px;
+        
+    }
+    
+    button:hover{
+        background-color: hsl(120, 91%, 26%);
+       
+    }
+    
+    table{
+        width: 600px; /* space between table headers*/
+        margin: 0 auto; /* center the table */
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd; /* border around the table*/
+    }
+    
+    th, td{
+        padding: 12px; /* make the rows bigger*/
+        text-align: left; /* align the texts both header and body*/
+    
+    }
+    
+    th{ /* coloring the header and its text*/
+        background-color: #4caf50;
+        color: white;
+    }
+    
+
+
+
+
+ 
+
+ 
+
+ 

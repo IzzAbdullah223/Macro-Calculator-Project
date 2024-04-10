@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Macro Calculator</title>
+</head>
+<body>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33c1d1f5f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div class="container">
+        <form class="Form">
+            <h1>Macro Calculator</h1>
+            <label>Age:</label>
+            <input id="Age" type="text" class="inputs" required>
+            <label>Gender:</label>
+            <select id="Gender" class="inputs">
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select>
+            <label>Height (cm):</label>
+            <input id="Height" type="text" class="inputs" required>
+            <label>Weight (kg):</label>
+            <input id="Weight" type="text" class="inputs" required>
+            <label>Activity Level: </label>
+            <select id="Activity" class="inputs">
+                <option value="0">Little or no Exercise</option>
+                <option value="1">Light Exercise (3-5d/week)</option>
+                <option value="2">Hard Exercise (3-5d/week)</option>
+                <option value="3">Hard Exercise (6-7d/week)</option>
+            </select>
+            <label>Goal:</label>
+            <select id="Goal" class="inputs">
+                <option value="0">Maintain Weight</option>
+                <option value="1">Lose Weight</option>
+                <option value="2">Gain Weight</option>
+            </select>
+            <button type="submit">Calculate</button>
+        </form>
+
+        
+    </div>
+    <table id="resultTable"> 
+        <thead>
+            <tr>
+                <th>Nutrients</th>
+                <th>Results</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> 
+                <td>Protein</td>
+                <td id="proteinResult"></td>
+            </tr>
+            <tr>
+                <td>Carb</td>
+                <td id="carbResult"></td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td id="fatResult"></td>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td id="caloriesResult"></td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+    
+   
+    
+<script src="index.js"></script>
+</body>
+</html>
+ 
